@@ -1,0 +1,4 @@
+jenkins-data/*
+docker-compose.yaml
+jenkins_notlari.txt
+
