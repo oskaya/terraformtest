@@ -1,4 +1,5 @@
 jenkins-data/*
-docker-compose.yaml
+docker-comp*.yaml
 jenkins_notlari.txt
-
+jenkins-jenkins_notlari
+insta*
