@@ -1,3 +1,3 @@
-FROM tomcat:8-jre8
+FROM nginx
 
-COPY ./webapp.war /usr/local/tomcat/webapps
+COPY ./nginx-files/* /usr/share/nginx/html
