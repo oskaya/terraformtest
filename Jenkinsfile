@@ -2,10 +2,10 @@ pipeline {
     agent any
 
     stages{
-        stage ("build") {
+        stage ("build Image") {
             steps{
-                echo "Building"
-                sh 'mvn clean install package'
+                echo "Creatnig Image"
+                sh 'docker build .'
             }
         }
 
